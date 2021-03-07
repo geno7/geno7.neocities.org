@@ -1,0 +1,19 @@
+{
+  "name": "neocities-geno7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fakeads.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geno7/geno7.neocities.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geno7/geno7.neocities.org/issues"
+  },
+  "homepage": "https://github.com/geno7/geno7.neocities.org#readme"
+}

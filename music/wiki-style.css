@@ -1,0 +1,432 @@
+
+@font-face
+{
+	font-family: PKMN;
+	src: url(../font/PKMN\ RBYGSC.ttf) format('truetype');
+}
+
+/*GOOD NIGHT FUTURE BOY*/
+    .gnfb-bg {
+        background-color: #3CB55B;
+        background-attachment: fixed;
+        color: #1F3B91;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        }
+
+    .gnfb-bg h2 {
+        color:#ffffff;
+    }
+
+    .gnfb-bg a:link, .gnfb-bg a:visited {
+        color:#ffffff
+    }
+
+    .gnfb-bg a:hover {
+        color:#1F3B91
+    }
+
+    .gnfb-bg table.wikitable, .gnfb-bg table.wikitable th, .gnfb-bg table.wikitable tr {
+        border-color: #ffffff;
+    }
+
+    .gnfb-bg .wikibody {
+        border-color: #ffffff
+    }
+
+    .gnfb-bg hr {
+        color: #ffffff;
+        background-color: #ffffff;
+    }
+
+    /*TRACK ACCORDIONS*/
+    .gnfb-bg .trackacc {
+        background-color: inherit;
+        color: white;
+        font-size: 20px;
+        }
+        
+    .gnfb-bg .activeacc, .gnfb-bg .trackacc:hover {
+        background-color: #ffffff;
+        color:#1F3B91;
+    }
+        
+    .gnfb-bg .trackacc:after {
+        color: white;
+        font-weight: bold;
+        float: left;
+        margin-left: 5px;
+        display:block;
+    }
+    
+    .gnfb-bg .activeacc:after {
+        color: white;
+    }
+
+    .gnfb-bg .track-about {
+        border-color: white;
+    }
+    
+    .gnfb-bg .track-lyrics {
+        float:left;
+        vertical-align: top;
+        text-align: left;
+        padding: 10px;
+        border-color: white;
+        max-height: 100%;
+    }
+    
+    .gnfb-bg .track-lyrics, .gnfb-bg .track-text {
+        font-size:10px
+    }
+
+    /*LISTEN TABS*/
+
+    /* Change background color of buttons on hover */
+    .gnfb-bg .tab2 button:hover {
+        background-color: #FFFFFF
+    }
+    
+    /* Create an active/current tablink class */
+    .gnfb-bg .tab2 button.active {
+        background-color: #FFFFFF;
+    }
+    
+    /* Style the tab content */
+    .gnfb-bg .tabcontent2 {
+        border-color: #ffffff ;
+        max-width: 100%;
+    }
+    
+/*RAKUGA FANTASY OST*/
+    .rakuga-bg {
+        background-color: #9BBC0F;
+        background-attachment: fixed;
+        color: #306230;
+        font-family: PKMN, monospace;
+        font-size: 15px;
+        -webkit-font-smoothing : none;
+        }
+
+    .rakuga-bg h2 {
+        color:#0f380f;
+    }
+
+    .rakuga-bg a:link, .rakuga-bg a:visited {
+        color:#0f380f;
+    }
+
+    .rakuga-bg a:hover {
+        color:#306230;
+    }
+
+    .rakuga-bg table.wikitable, .rakuga-bg table.wikitable th, .rakuga-bg table.wikitable tr {
+        border-color: #306230;
+    }
+
+    .rakuga-bg hr {
+        color: #0f380f;
+        background-color: #306230;
+    }
+
+    /*TRACK ACCORDIONS*/
+    .rakuga-bg .trackacc {
+        background-color: inherit;
+        color: #306230;
+        font-size: 15px;
+        font-family: PKMN, monospace;
+        -webkit-font-smoothing : none;
+        }
+        
+    .rakuga-bg .activeacc, .rakuga-bg .trackacc:hover {
+        background-color: #306230;
+        color:#ffffff;
+    }
+        
+    .rakuga-bg .trackacc:after {
+        color: #306230;
+    }
+    
+    .rakuga-bg .activeacc:after {
+        color: #0f380f;
+    }
+
+    .rakuga-bg .track-about {
+        border-color: #306230;
+        font-size:15px;
+    }
+    
+    .rakuga-bg .track-lyrics {
+        border-color: #306230;
+    }
+    
+    .rakuga-bg .track-lyrics, .rakuga-bg .track-text {
+        font-size:15px;
+    }
+
+    /*LISTEN TABS*/
+       
+    /* Change background color of buttons on hover */
+    .rakuga-bg .tab2 button:hover {
+        background-color: #306230
+    }
+    
+    /* Create an active/current tablink class */
+    .rakuga-bg .tab2 button.active {
+        background-color: #306230;
+    }
+    
+    /* Style the tab content */
+    .rakuga-bg .tabcontent2 {
+        border-color: #306230 ;
+        max-width: 100%;
+    }
+
+
+#tracklisting {
+    text-align:left;
+    vertical-align: bottom;
+    width: 95%;
+}
+
+figure.indfig1 {
+    width:100%;
+    text-align:center;
+}
+
+ul { display:table; margin:auto;}
+
+* {box-sizing: border-box}
+
+/*MUSIC INFO PAGES*/
+
+/* WIKI BODY */
+/* Style the tab content */
+.wikibody {
+margin: auto;
+border-style: solid;
+border-width: 3px;
+width: 90%;
+max-width: 1500px;
+height: auto;
+padding: 10px;
+}
+
+/*style horizontal rule*/
+hr {
+    height:3px;
+    border-width:0;
+    color: green;
+    background-color: green;
+}
+
+/*so floated content doesnt overflow*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* table for album */
+
+table.wikitable, table.wikitable th, table.wikitable tr {
+border-style: solid;
+border-width: 2px;
+border-collapse: separate;
+padding: 2px;
+margin:10px;
+}
+
+/*MOBILE SCREENS*/
+   @media only screen and (max-width: 866px) {
+ 
+     table.wikitable {
+        float:none;
+        margin: auto;
+        max-width:100%;
+        display:block;
+    }
+
+    .track-lyrics .track-text {
+        font-size:5px;
+    }
+}
+
+/*DESKTOP SCREENS*/
+@media only screen and (min-width: 867px) {
+
+    table.wikitable {
+        float:right;
+        max-width:400px;
+    }
+
+}
+
+table.wikitable{
+    clear: right;
+}
+
+#overview {
+    text-align:left;
+    width: 95%;
+}
+
+/* for displaying pictures in the article*/
+figure.wikifig {
+    margin: 8px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    max-width: 200px;
+}
+
+#otherpics figcaption {
+    display:block;
+}
+
+#otherpics img {
+    max-width:200px;
+    max-height:150px;
+}
+
+figcaption.wikifig{
+    text-align: center;
+}
+
+/*LISTEN TABS*/
+/* Style the tab */
+.listentable {
+    min-width:40%;
+    margin: auto;
+}
+
+.tab2 {
+overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab2 button {
+border: none;
+outline: none;
+cursor: pointer;
+padding: 10px 10px;
+transition: 0s;
+font-size: 17px;
+background-color: inherit;
+}
+
+/* Style the tab content */
+.tabcontent2 {
+    border-width: 2px;
+    border-style: solid;
+    max-width: 100%;
+}
+
+/*ACCORDIONS FOR TRACKS*/
+.trackacc {
+cursor: pointer;
+width: 100%;
+max-width: 1010px;
+text-align: left;
+float:left;
+transition: 0s;
+}
+
+.trackacc:after {
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+    display:block;
+}
+
+.track-title {
+    display: inline;
+    float: left;
+    text-align:center;
+    max-width:800px;
+}
+
+.track-dur {
+    display: inline;
+    float: right;
+    vertical-align: top;
+}
+
+.panel {
+    background-color: inherit;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    float:left;
+    clear:left;
+    font-size:17px;
+}
+
+.panel h3 {
+    margin:0px;
+}
+
+.track-about {
+    float:left;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    max-height: 100%;
+}
+
+.track-lyrics {
+    float:left;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px;
+    border-width: 2px; 
+    border-style: solid;
+    max-height: 100%;
+}
+
+.track-lyrics .track-text {
+    font-size:10px
+}
+
+.track-text {
+    overflow-y: auto;
+    width: 100%;
+    height: 500px;
+}
+
+/*MOBILE SCREENS*/
+@media only screen and (max-width: 1264px) {
+    .track-text {
+        width: 100%;
+    }
+
+    .track-lyrics {
+        width: 100%;
+    }
+
+    .panel {
+        max-width: 100%;
+    }
+}
+
+/*DESKTOP SCREENS*/
+@media only screen and (min-width: 1265px) {
+    .track-text {
+        max-width: 480px;
+    }
+
+    .panel {
+        max-width: 1010px;
+    }
+}
+
+/*navigation on music pages*/
+#nav figure {
+    margin: 8px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    max-width: 100px;
+}

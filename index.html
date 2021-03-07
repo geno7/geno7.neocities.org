@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html class="index-bg centertext">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Welcome to the official homepage of artist, musician and programmer GENO7!!">
+<meta name="keywords" content="Music, Comics, Art, Portfolio, Geno7, Prog Rock, Alternative Rock, Nuclear 80s Remix, Pacific Rim 80s Remix">
+<meta name="author" content="Geno7">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>geno7's webpage!!!!!!!</title>
+<link rel="icon" href="images/head.png">
+<!-- The style.css file allows you to change the look of your web pages.
+      If you include the next line in all your web pages, they will all share the same look.
+      This makes it easier to make new pages for your site. -->
+<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+<header>
+<!--ADS-->
+<script src="fakeads.js"></script>
+<hr>
+
+<!--PAGE TITLE-->
+<table style="margin: auto;">
+  <tr>
+    <td>
+      <img src="images/fuck.png" style="max-width: 100px;" width="100%">
+    </td>
+    <td>
+      <img src="images/geno7scoolwebpage.gif" style="max-width: 600px;" width="100%">
+    </td>
+    <td>
+      <img src="images/fuck.png" style="max-width: 100px;" width="100%">
+    </td>
+  </tr>
+</table>
+
+<!--WELCOME-->
+<p>
+<img src="images/welcome2.gif"/>
+<img src="images/welcome.gif" height="50"/>
+<img src="images/welcome2.gif"/>
+</p>
+
+<p>Welcome to the official homepage of artist, musician and programmer <strong style="color: red">GENO7!!</strong> enjoy your stay!!!</p>
+<img src="images/h-free-anim.gif" />
+<p>YOU ARE VISITOR # <span id="hitcount"></span></p>
+<!--VISITOR HIT COUNT SCRIPT-->
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var site_data = JSON.parse(this.responseText);
+    var num_arr = site_data.info.views.toString().split("");
+    var num_str = "";
+    for (i = 0; i < num_arr.length; i++) {
+      num_str += `<img src="images/counter/c` + num_arr[i] + `.gif"/>`;
+      if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
+    }
+    document.getElementById("hitcount").innerHTML = num_str;
+  }
+};
+xhttp.open("GET", "https://cors-anywhere.herokuapp.com/https://neocities.org/api/info?sitename=geno7", true);
+xhttp.send();
+</script>
+</header>
+
+<hr>
+
+<!--88x31 BUTTONS-->
+<a href ="mailto: geno7art@gmail.com"><img class="imglink2" src="images/88x31/email.gif" alt="send me an email!"/></a>
+<a href ="https://ko-fi.com/A874PG5"><img class="imglink2" src="images/88x31/donate.gif" alt="send me an email!"/></a>
+<a href ="/guestbook.html"><img class="imglink2" src="images/88x31/sign_guest_book.gif" alt="send me an email!"/></a>
+
+<hr>
+
+<!--COOL LINKS-->
+<table style="display:inline-block;padding: 20px 0px;">
+  <tr>
+    <th colspan="4"><h1>Find Geno7 in Cool Places Around The Web</h1></th>
+  </tr>
+  <tr>
+    <!--HEADERS-->
+    <th colspan="2" style="border-right: 2px solid white;">
+      <img src="images/links/bugs14.gif" height="50"/>
+      <br><img src="images/links/cartoons.gif" height="50"/>
+    </th>
+    <th colspan="2">
+      <img src="images/links/musicos.gif" height="50" />
+      <br><img src="images/links/musicgif2.gif" width="200"/>
+    </th>
+  </tr>
+  <tr>
+    <th> 
+      <figure>
+        <a href="https://www.artstation.com/artist/geno7art"><img class="imglink2" src="images/links/artstation.gif" height="80"/></a>
+        <figcaption>Artstation</figcaption>
+      </figure>
+    </th>
+    <th style="border-right: 2px solid white;">
+      <figure>
+        <a href="https://geno7art.tumblr.com"><img src="images/links/tumblr.gif" class="imglink2" height="80"/></a>
+        <figcaption>Tumblr</figcaption>
+      </figure>
+    </th>
+    <th>
+      <figure>
+        <a href="https://www.youtube.com/channel/UCLa1uhaY5xMXM_gxY6i1ZOg"><img class="imglink2" src="images/links/youtube.gif" width="80"/></a>
+        <figcaption>YouTube</figcaption>
+      </figure>
+    </th>
+    <th>
+      <figure>
+        <a href="https://soundcloud.com/geno7music"><img class="imglink2" src="images/links/soundcloud.gif" height="50"/></a>
+        <figcaption>SoundCloud</figcaption>
+      </figure>
+    </th>
+  </tr>
+  <tr>
+    <th>
+      <figure>
+        <a href="https://www.deviantart.com/eckitout"><img class="imglink2" src="images/links/deviantart.gif" width="80"/></a>
+        <figcaption>DeviantArt</figcaption>
+      </figure>
+    </th>
+    <th style="border-right: 2px solid white;">
+      <figure>
+        <a href="https://www.pixiv.net/en/users/13774644"><img class="imglink2" src="images/links/pixiv.gif" height="80"/></a>
+        <figcaption>Pixiv</figcaption>
+      </figure>
+    </th>
+    <th>
+      <figure>
+        <a href="https://geno7.bandcamp.com"><img class="imglink2" src="images/links/bandcamp1.gif" height="80"/></a>
+        <figcaption>Bandcamp(1)</figcaption>
+      </figure>
+    </th>
+    <th>
+      <figure>
+        <a href="https://geno8.bandcamp.com"><img class="imglink2" src="images/links/bandcamp2.gif" height="80"/></a>
+        <figcaption>Bandcamp(2)</figcaption>
+      </figure>
+    </th>
+  </tr>
+  <tr>
+    <th>
+    <!--intentionally left blank-->
+    </th>
+    <th style="border-right: 2px solid white;">
+    <!--intentionally left blank-->
+    </th>
+    <th>
+      <figure>
+        <a href="https://www.geno7music.tumblr.com"><img class="imglink2" height="80" src="images/links/tumblr.gif"/></a>
+        <figcaption>Tumblr</figcaption>
+      </figure>
+    </th>
+    <th>
+      <figure>
+        <a href="https://audius.co/geno7_"><img class="imglink2"src="images/links/audius.gif"/></a>
+        <figcaption>Audius</figcaption>
+      </figure>
+    </th>
+  </tr>
+</table>
+
+<!--UPDATES-->
+<div id="updates" style="display:inline-block; padding: 10px;">
+  <h1>The Latest Updates Direct From Geno7</h1>
+
+<a class="twitter-timeline" style="max-width: 400px;" width="70%" height="400px" href="https://twitter.com/geno7_?ref_src=twsrc%5Etfw">Tweets by geno7_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+
+<!--MUSIC-->
+<div id="phono" style="display:inline-block; padding: 10px;">
+  <h1>Learn More about Geno7's Music</h1>
+  <a href="music/index.html"><img class="imglink" style="max-width: 324px;" width="100%" src="images/clinton2.png" alt="Click Here to learn more about geno7's music"/></a>
+</div>
+
+<p><a href="https://www.webtoons.com/en/challenge/ruth-dianne-are-starting-a-band/list?title_no=417188"><img class="imglink" style="max-width: 600px;" width="100%" src="images/ruth&dianne_crap.png" alt="Geno7's Webcomic, Ruth & Dianne are Starting a Band!"/></a></p>
+
+<p><a href="https://commiss.io/geno7"><img src="images/comme.gif"  class="imglink2" alt="PAY ME to make things FOR YOU!"/></a></p>
+
+<footer>
+
+<hr>
+
+<div id="neocities/vscode">
+  <a href="https://code.visualstudio.com"><img src="images/88x31/VISUALSTUDIO.gif" class="imglink2"/></a>
+  <a href="https://neocities.org/site/geno7"><img src="images/88x31/neocities_button.gif" class="imglink2"/></a>
+</div>
+<div id="88x31">
+  <img src="images/88x31/microshaftl.gif" />
+  <img src="images/88x31/getflash.gif" />
+  <img src="images/88x31/gameboy_advance_net.gif" />
+  <img src="images/88x31/ieexplode.gif" />
+  <img src="images/88x31/n64_com_now.gif" />
+</div>
+
+<hr>
+
+<!--OTHER COOL PAGES-->
+<img src="images/othercoolpages.gif" style="max-width: 300px;" width="100%" />
+<div id="webrings">
+  <a href="https://www.jamessblastpastplaza.net/forever-neighborhood"><img alt="forever neighborhood" src="https://static.wixstatic.com/media/f56de5_e7ff7c91aa0a4118bddd1cd287b798ef~mv2.gif" style="width: 90px; height: 32px; object-fit: cover;" class="imglink2"></a>  
+</div>
+<div id="othercoolpages">
+  <a href="https://cmy2k.neocities.org/"> <img src="https://cmy2k.neocities.org/cmy2k.gif" class="imglink2"></a>
+  <a href="https://www.jamessblastpastplaza.net"><img alt="ezgif-3-983b522b5290 (1).gif" src="https://static.wixstatic.com/media/f56de5_3a66bdbf80994cca8aabd120026f0ab3~mv2.gif" class="imglink2" style="width: 90px; height: 30px; object-fit: cover;"></a>
+  <a href="https://emptygod.neocities.org" style="color:red;" target="_blank" class="hiddenlink"><img src="https://emptygod.neocities.org/buttongraphic/buttons/emptygod.gif.gif" class="imglink2"></a>
+  <a href="https://madville.neocities.org"><img src="https://madville.neocities.org/style/madville.gif" class="imglink2"></a>
+  <a href="https://cadnomori.neocities.org/"><img src="https://cadnomori.neocities.org/banners/kuramabanner.png" class="imglink2" /></a>
+  <a href="https://toroinoue.neocities.org"><img src="https://toroinoue.neocities.org/images/sitebutton.png" class="imglink2" /></a>
+  <a href="https://sanhyo.neocities.org"><img src="https://sanhyo.neocities.org/sanhyobutton.gif"class="imglink2"/><a>
+  <a href="https://dannarchy.com"><img src="https://dannarchy.com/images/d_now.gif" class="imglink2"/></a>
+  <a href="https://tangotrail.neocities.org/" target="_blank"><img src="https://tangotrail.neocities.org/sitebutton.gif" width="88" height="31" class="imglink2"/></a>
+  <a href="https://haxrelm.neocities.org/"><img src="images/88x31/haxrelm.gif" width="88" height="31" title="Hello" class="imglink2" /></a>
+  <a href="https://nightmarefantasmic.neocities.org/"><img src="https://nightmarefantasmic.neocities.org/linkme/buttonpink.gif" width="88" height="31" title="Hello" class="imglink2" /></a>
+  <div>
+    <iframe width="468" height="60" style="border:none" src="https://hbaguette.neocities.org/bannerlink/embed.html" name="bannerlink"></iframe>
+  </div>
+  <p>(will add more whenever im down for hours of hunting for site buttons and copypasting inspect element code)</p>
+</div>
+<a href="linkme.html"><img class="imglink2" src="images/bannersforyour.gif" style="max-width: 700px;" width="100%" /></a>
+
+<hr>
+<h1>Remember, Geno7's Cool Webpage is Always...</h1>
+<table style="margin: auto;">
+  <tr>
+    <td>
+      <img src="images/construction.gif" style="max-width: 100px;" width="100%">
+    </td>
+    <td>
+      <img src="images/CoCollegeParkCampus6938construction.gif" style="max-width: 600px;" width="100%" />
+    </td>
+    <td>
+      <img src="images/construction.gif" style="max-width: 100px;" width="100%">
+    </td>
+  </tr>
+</table>
+<!--KEEP TRACK OF LAST UPDATE-->
+<p>Last Updated: <span id="lastupdate"></span></p>
+  <script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var site_data = JSON.parse(this.responseText);
+  
+        var date_str = site_data.info.last_updated;
+        document.getElementById("lastupdate").innerHTML = date_str;
+  
+      }
+    };
+    xhttp.open("GET", "https://cors-anywhere.herokuapp.com/https://neocities.org/api/info?sitename=geno7", true);
+    xhttp.send();
+  </script>
+
+
+<!--ADS-->
+<hr>
+<script src="fakeads.js"></script>
+</footer>
+</body> 
+</html>
