@@ -1,0 +1,178 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+.centertext {
+    text-align: center;
+}
+
+/*set background per page*/
+
+.index-bg {
+    background-image: url("images/bg/stars.gif");
+    background-color: #000000;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    cursor:url(images/cursor/gerald.gif), auto;
+    }
+
+.index-bg a:hover{
+    cursor:url(images/cursor/gerald.gif), auto;
+}
+
+#linkme-bg {
+    background-image: url("images/bg/bg_dexter.gif");
+    background-attachment: fixed;
+    background-color: rgb(33, 49, 140);
+    cursor:url(images/cursor/eddy.png), auto;
+    }
+
+.linkme-content {
+    background: url("images/bg/bananasplits.gif") rgb(255, 204, 0);
+    background-attachment: fixed;
+    color: rgb(112, 33, 33);
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 1px 15px;
+    border-radius: 20px;
+
+    font: 17px 'Cherry Cream Soda',"Arial Black", Gadget, sans-serif;
+}
+
+.linkme-content a:hover{
+    cursor:url(images/cursor/eddy.png), auto;
+}
+
+.linkme-content h1 {
+    font: 35px 'Fontdiner Swanky',Georgia, serif;
+    margin: 5px auto;
+}
+
+.linkme-content p {
+    margin-top: 1px;
+    margin-bottom: 1em;
+}
+
+.error-bg {
+    background-image: url("images/cartoonetwork/bg.gif");
+    background-attachment: fixed;
+
+    cursor:url(images/cursor/cursor4.gif), auto;
+    }
+
+.error-bg a:hover{
+    cursor:url(images/cursor/gerald.gif), auto;
+}
+
+.error-text{
+    font-family: Georgia, serif;
+    color: rgb(214, 42, 42);
+}
+  
+.guestbook-bg {
+    background-image: url("images/bg/bg7.gif");
+    /*background-size: contain, cover;*/
+    background-attachment: fixed;
+    background-color: #FCC0D5;
+    color: rgb(11, 38, 160);
+    font-family: "Times New Roman", Times, serif;
+
+    cursor:url(images/cursor/hk.gif), auto;
+    }
+
+.guestbook-bg a:hover{
+    cursor:url(images/cursor/hk.gif), auto;
+}
+    
+#coollinks, #coollinks th, #coollinks td, #coollinks tr {
+    border: 2px solid white;
+    border-collapse: collapse;
+    }
+
+#coollinks th, #coollinks td{
+    margin:0px;
+    padding: 0px;
+}
+
+figure {
+    padding: 0px;
+    margin:0px;
+}
+
+/*MUSIC INDEX SHIT*/
+.music-index-bg {
+    background-image: url("images/bg/listenbkgd.gif");
+    background-blend-mode: multiply;
+    background-color: #2200ff;
+    background-attachment: fixed;
+    
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    
+    cursor:url(images/cursor/guitar2.png), auto;
+    }
+    
+    .music-index-bg a:hover{
+        cursor:url(images/cursor/guitar2.png), auto;
+    }
+
+
+img.imglink {
+/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: none; /* IE5+ */
+}
+
+.music-index-bg .imglink {
+    margin: auto;
+    display: block;
+    padding: 10px 30px;
+    max-width: 100%;
+}
+
+img.imglink:hover {
+filter:hue-rotate(40deg);
+-webkit-transform: scale(1.01);
+transform: scale(1.03);
+cursor: inherit;
+}
+
+/*for marking individual music links as dormant or not yet up*/
+img.dormant {
+    filter: grayscale(100%);
+    margin: auto;
+    display: block;
+    padding: 10px 30px;
+    max-width: 100%;
+}
+/*for marking an entire section of music links as dormant or not yet up*/
+.dormant img {
+    filter: grayscale(100%);
+    margin: auto;
+    display: block;
+    padding: 10px 30px;
+    max-width: 100%;
+} 
+
+/*DONT DELETE THIS IT CENTERS PADDED SHIT CORRECTLY*/
+* {  
+    box-sizing: border-box;
+}
+
+img.imglink2 {
+    filter: none; /* IE5+ */
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+img.imglink2:hover {
+    filter:saturate(9);
+    -webkit-transform: scale(1.20);
+    transform: scale(1.20);
+    }

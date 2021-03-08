@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="music-index-bg centertext">
+<head>
+<meta charset="UTF-8" />
+<meta name="description" content="Welcome to the official homepage of artist, musician and programmer GENO7!!">
+<meta name="keywords" content="Music, Comics, Art, Portfolio, Geno7, Prog Rock, Alternative Rock, Nuclear 80s Remix, Pacific Rim 80s Remix">    
+<meta name="author" content="Geno7">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>geno7's webpage!!!!!!!</title> 
+<link rel="icon" href="images/head.png">   
+<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+<!--ADS-->
+<script src="../fakeads.js"></script>
+<hr>
+
+<div id="title">
+
+<table style="margin: auto">
+    <tr>
+        <td>
+            <img src="../images/guitarbaby.gif" alt="guitarbaby" width="100" height="100"/>
+        </td>
+        <td>
+            <img src="../images/geno7tunes.gif" alt="Geno7's Tunes" width="100%"/>
+        </td>
+        <td>
+            <img src="../images/guitarbaby.gif" alt="guitarbaby" width="100" height="100"/>
+        </td>
+    </tr>
+</table>
+
+<p>The <strong>PHONOCHRONOGRAPHIZER,</strong> <strong>CENTRAL KNOWLEDGE BASE</strong> for the many <strong>"""EAR FILMS"""</strong> GENO7 has released over his meager tenure as a flesh sac drifting across the planet. </p>
+<h2>CLICK ON AN ALBUM BANNER FOR LINKS AND INFORMATION</h2>
+</div>
+
+<div id="latest">
+    <img src="../images/pinkmusicbar.gif" alt="divider" height="100"/>
+    <p>
+        <table style="margin: auto">
+            <tr>
+                <td>
+                    <img src="../images/pauldancing.gif" alt="pauldancing" width="100" height="100"/>
+                </td>
+                <td>
+                    <img  src="../images/latestrelease.gif" alt="latest release" style="max-width: 600px" width="100%"/>
+                </td>
+                <td>
+                    <img src="../images/pauldancing.gif" alt="pauldancing" width="100" height="100"/>
+                </td>
+            </tr>
+        </table>
+            
+        <br><a href="good-night-future-boy.html"><img class="imglink" src="../images/gnfb/banner-l.png" alt="Good Night Future Boy"/></a>
+    </p>
+    <img src="../images/pinkmusicbar.gif" alt="divider" height="100"/>
+    
+</div>
+
+<div id="past">
+    <p>
+        <table style="margin: auto">
+            <tr>
+                <td>
+                    <img src="../images/ringodrums.gif" alt="ringodrums" width="100" height="100"/>
+                </td>
+                <td>
+                    <img src="../images/olderreleases.gif" alt="latest release" style="max-width: 600px" width="100%"/>
+                </td>
+                <td>
+                    <img src="../images/ringodrums.gif" alt="ringodrums" width="100" height="100"/>
+                </td>
+            </tr>
+        </table>
+        <h2>Not all of these have pages yet, rest assured they're coming soon!</h2>
+        <table style="margin: auto">
+            <tr>
+                <td>
+                    <img src="../images/new.gif" alt="New" />
+                </td>
+                <td>
+                    <a href="rakuga-fantasy-ost.html"><img class="imglink" src="../images/rakuga/banner-s.png" alt="Rakuga Fantasy"/></a>
+                </td>
+                <td>
+                    <img src="../images/new.gif" alt="New" />
+                </td>
+            </tr>
+        </table>
+        
+        <div class="dormant">
+        <img src="../images/mandelbrot/banner-s.png" alt="Mandelbrot"/>
+        <img src="../images/badinf2/banner-s.png" alt="The Bad Influences Part II: Revenge of The Bad Influences"/>
+        <img src="../images/nt2017/banner-s.png" alt="Night Terrors 2017"/>
+        <img src="../images/freemoney/banner-s.png" alt="Free Money"/>
+        <img src="../images/3d/banner-s.png" alt="The 3D Album"/>
+        <img src="../images/badinf/banner-s.png" alt="The 3D Album"/>
+        </div>
+    </p>
+</div>
+<div id="backbutton" style="padding:10px">
+    <figure>
+        <a href="../index.html"><img class="imglink2" src="../images/nav/home.gif" alt="Back" style="max-width: 100px;" width="100%"></a>
+        <figcaption><strong>RETURN TO THE HOMEPAGE</strong></figcaption>
+      </figure>
+    </div>
+
+<img src="../images/Rap_ami.gif" alt="Powerpuffs Rappin" style="max-width: 200px;" width="100%"/>
+
+<footer>
+    <!--KEEP TRACK OF LAST UPDATE-->
+<p>Last Updated: <span id="lastupdate"></span></p>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    var site_data = JSON.parse(this.responseText);
+
+    var date_str = site_data.info.last_updated;
+    document.getElementById("lastupdate").innerHTML = date_str;
+
+    }
+};
+xhttp.open("GET", "https://cors-anywhere.herokuapp.com/https://neocities.org/api/info?sitename=geno7", true);
+xhttp.send();
+</script>
+<!--ADS-->
+<hr>
+<script src="../fakeads.js"></script>
+</footer>
+</body>
+</html>
