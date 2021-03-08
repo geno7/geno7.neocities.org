@@ -2,9 +2,11 @@
   "name": "neocities-geno7",
   "version": "1.0.0",
   "description": "",
-  "main": "fakeads.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/geno7/geno7.neocities.org/issues"
   },
-  "homepage": "https://github.com/geno7/geno7.neocities.org#readme"
+  "homepage": "https://github.com/geno7/geno7.neocities.org#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
