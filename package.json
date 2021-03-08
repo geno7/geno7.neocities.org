@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
     "lite": "lite-server",
-    "imagemin": "imagemin img/ -o dist/img"
+    "imagemin": "imagemin img/ -o dist/img",
+    "build": ""
   },
   "repository": {
     "type": "git",
