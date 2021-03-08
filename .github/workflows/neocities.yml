@@ -14,13 +14,14 @@ jobs:
     - uses: actions/checkout@v1
     # Set up any tools and build steps here
     # This example uses a Node.js toolchain to build a site
-    - name: Use Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12
-    - name: Install deps and build
-      run: |
-        npm i
+    # - name: Use Node.js
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: 12
+    # - name: Install deps and build
+    #   run: |
+    #     npm i
+    #     npm run build
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1
