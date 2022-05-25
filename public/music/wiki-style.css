@@ -5,6 +5,107 @@
 	src: url(../font/PKMN\ RBYGSC.ttf) format('truetype');
 }
 
+@font-face
+{
+	font-family: PopHappiness;
+	src: url(../font/FOT-PopHappiness.otf);
+}
+
+/*COMIC MISCHIEF*/
+    .cm-bg {
+        background-color: #000000;
+        background-attachment: fixed;
+        color: #5d16bb;
+        font-family: PopHappiness, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 1;
+        }
+
+    .cm-bg h2 {
+        color:#ffffff;
+    }
+
+    .cm-bg a:link, .cm-bg a:visited {
+        color:#ffffff
+    }
+
+    .cm-bg a:hover {
+        color:#5d16bb
+    }
+
+    .cm-bg table.wikitable, .cm-bg table.wikitable th, .cm-bg table.wikitable tr {
+        border-color: #ffffff;
+    }
+
+    .cm-bg .wikibody {
+        border-color: #ffffff
+    }
+
+    .cm-bg hr {
+        color: #ffffff;
+        background-color: #ffffff;
+    }
+
+    /*TRACK ACCORDIONS*/
+    .cm-bg .trackacc {
+        background-color: inherit;
+        color: white;
+        font-family: PopHappiness, Helvetica, sans-serif;
+        font-size: 20px;
+        }
+        
+    .cm-bg .activeacc, .cm-bg .trackacc:hover {
+        background-color: #ffffff;
+        color:#5d16bb;
+    }
+        
+    .cm-bg .trackacc:after {
+        color: white;
+        font-weight: bold;
+        float: left;
+        margin-left: 5px;
+        display:block;
+    }
+    
+    .cm-bg .activeacc:after {
+        color: white;
+    }
+
+    .cm-bg .track-about {
+        border-color: white;
+    }
+    
+    .cm-bg .track-lyrics {
+        float:left;
+        vertical-align: top;
+        text-align: left;
+        padding: 10px;
+        border-color: white;
+        max-height: 100%;
+    }
+    
+    .cm-bg .track-lyrics, .cm-bg .track-text {
+        font-size:10px
+    }
+
+    /*LISTEN TABS*/
+
+    /* Change background color of buttons on hover */
+    .cm-bg .tab2 button:hover {
+        background-color: #FFFFFF
+    }
+    
+    /* Create an active/current tablink class */
+    .cm-bg .tab2 button.active {
+        background-color: #FFFFFF;
+    }
+    
+    /* Style the tab content */
+    .cm-bg .tabcontent2 {
+        border-color: #ffffff ;
+        max-width: 100%;
+    }
+
 /*GOOD NIGHT FUTURE BOY*/
     .gnfb-bg {
         background-color: #3CB55B;
