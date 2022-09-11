@@ -15,35 +15,39 @@
     .cm-bg {
         background-color: #000000;
         background-attachment: fixed;
-        color: #5d16bb;
+        color: #ffff;
         font-family: PopHappiness, Helvetica, sans-serif;
         font-size: 20px;
         line-height: 1;
         }
 
+    .cm-bg b {
+        color: #df1010
+    }
+
     .cm-bg h2 {
-        color:#ffffff;
+        color:#5d16bb;
     }
 
     .cm-bg a:link, .cm-bg a:visited {
-        color:#ffffff
-    }
-
-    .cm-bg a:hover {
         color:#5d16bb
     }
 
+    .cm-bg a:hover {
+        color:#ffff
+    }
+
     .cm-bg table.wikitable, .cm-bg table.wikitable th, .cm-bg table.wikitable tr {
-        border-color: #ffffff;
+        border-color: #5d16bb;
     }
 
     .cm-bg .wikibody {
-        border-color: #ffffff
+        border-color: #5d16bb
     }
 
     .cm-bg hr {
-        color: #ffffff;
-        background-color: #ffffff;
+        color: #5d16bb;
+        background-color: #5d16bb;
     }
 
     /*TRACK ACCORDIONS*/
@@ -85,7 +89,7 @@
     }
     
     .cm-bg .track-lyrics, .cm-bg .track-text {
-        font-size:10px
+        font-size:15px
     }
 
     /*LISTEN TABS*/
