@@ -114,9 +114,16 @@ figure {
     cursor:url(images/cursor/guitar2.png), auto;
     }
     
-    .music-index-bg a:hover{
+    /* .music-index-bg a:hover{
         cursor:url(images/cursor/guitar2.png), auto;
-    }
+    } */
+
+.inline-img {
+    display: inline;
+    margin: 0 0.125em;
+    padding: 0;
+    vertical-align: baseline;
+}
 
 
 img.imglink {
