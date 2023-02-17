@@ -6,6 +6,13 @@
     text-align: center;
 }
 
+.center-content {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 1px 15px;
+}
+
 /*set background per page*/
 
 .index-bg {
@@ -19,6 +26,45 @@
 
 .index-bg a:hover{
     cursor:url(images/cursor/gerald.gif), auto;
+}
+
+#coollinks a:link {
+    color: #0feb2d
+}
+
+#coollinks a:visited {
+    color: #5cdf6e
+}
+
+#coollinks a:hover {
+    color: #ffffff
+}
+
+#coollinks h2{
+    margin: 0px 0px;
+}
+
+#coollinks p {
+    margin: 0px 0px 15px 0px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  margin: auto;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoWrapperWrapper {
+    max-width: 600px;
+    margin: auto;
 }
 
 #linkme-bg {
@@ -40,6 +86,8 @@
 
     font: 17px 'Cherry Cream Soda',"Arial Black", Gadget, sans-serif;
 }
+
+
 
 .linkme-content a:hover{
     cursor:url(images/cursor/eddy.png), auto;
@@ -85,16 +133,6 @@
 .guestbook-bg a:hover{
     cursor:url(images/cursor/hk.gif), auto;
 }
-    
-#coollinks, #coollinks th, #coollinks td, #coollinks tr {
-    border: 2px solid white;
-    border-collapse: collapse;
-    }
-
-#coollinks th, #coollinks td{
-    margin:0px;
-    padding: 0px;
-}
 
 figure {
     padding: 0px;
@@ -114,9 +152,20 @@ figure {
     cursor:url(images/cursor/guitar2.png), auto;
     }
     
-    /* .music-index-bg a:hover{
-        cursor:url(images/cursor/guitar2.png), auto;
-    } */
+
+/* links */
+.music-index-bg a:link{
+    color:rgb(14, 212, 80)
+}
+
+.music-index-bg a:visited{
+    color:rgb(14, 212, 80)
+}
+
+.music-index-bg a:hover{
+    color:rgb(255, 255, 255);
+    cursor:url(images/cursor/guitar2.png), auto;
+}
 
 .inline-img {
     display: inline;
@@ -160,7 +209,7 @@ img.dormant {
     display: block;
     padding: 10px 30px;
     max-width: 100%;
-} 
+}
 
 /*DONT DELETE THIS IT CENTERS PADDED SHIT CORRECTLY*/
 * {  
