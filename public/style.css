@@ -139,6 +139,117 @@ figure {
     margin:0px;
 }
 
+/*LIBRARY SHIT*/
+@font-face
+{
+	font-family: SnowDream;
+	src: url(../font/PKMN\ RBYGSC.ttf) format('truetype');
+}
+
+#library-bg {
+    background-image: url("images/bg/library.png");
+    /*background-size: contain, cover;*/
+    background-attachment: fixed;
+    /* cursor:url(images/cursor/eddy.png), auto; */
+}
+
+.library-content {
+    background: rgb(204,49,104);
+    background-attachment: fixed;
+    color: rgb(33,16,110);
+    width: 95%;
+    margin: auto;
+    padding: 1px 15px;
+    border-radius: 20px;
+
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+}
+
+.library-thing {
+    border-radius: 20px;
+    background-attachment: fixed;
+    padding-bottom: 1px;
+    margin: 10px 0px;
+}
+
+.library-ruthanddianne {
+    background-image: url("images/library/ruthanddianne/bg.png");
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    color:#000000;
+}
+
+.library-ruthanddianne span {
+    background-image: url("images/library/ruthanddianne/bg_white.png");
+}
+
+.library-ruthanddianne .imglink {
+    margin: auto;
+    display: block;
+    padding: 0px;
+    max-width: 100%;
+}
+
+@font-face
+{
+	font-family: PKMN;
+	src: url(font/PKMN\ RBYGSC.ttf) format('truetype');
+}
+
+.library-tractron {
+    background-image: url("images/library/tractron/bg.png");
+    font-family: PKMN, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    padding: 10px 10px;
+}
+
+.library-tractron .imglink {
+    margin: auto;
+    display: block;
+    padding: 0px;
+    max-width: 70%;
+}
+
+@font-face
+{
+	font-family: Cherrybomb;
+	src: url(font/Cherrybomb.ttf) format('truetype');
+}
+
+.library-wwtc {
+    background-image: url("images/library/wwtc/bg.png");
+    font-family: Cherrybomb, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4FE400;
+    padding: 10px 10px;
+}
+
+.library-wwtc span {
+    filter: drop-shadow(0 2mm 0 rgb(160, 0, 210));
+}
+
+.library-wwtc .imglink {
+    margin: auto;
+    display: block;
+    padding: 0px;
+    max-width: 100%;
+}
+
+
+.library-content h1{
+    font-family:  SnowDream, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.library-ad {
+    padding: 10px;
+}
+
 /*MUSIC INDEX SHIT*/
 .music-index-bg {
     background-image: url("images/bg/listenbkgd.gif");
