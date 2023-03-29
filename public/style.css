@@ -250,6 +250,41 @@ figure {
     padding: 10px;
 }
 
+/*WALLPAPERS SHIT*/
+
+#wallpapers-bg {
+    background-image: url("images/bg/gainax1.gif");
+    /*background-size: contain, cover;*/
+    background-attachment: fixed;
+    /* cursor:url(images/cursor/eddy.png), auto; */
+}
+
+.wallpapers-content {
+    background-image: url("images/bg/gainax2.gif");
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    width: 95%;
+    margin: auto;
+    padding: 1px 15px;
+    outline: 3px solid rgb(197, 15, 15);
+
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16px;
+}
+
+.wallpapers-content .imglink2 {
+    max-width: 230px;
+}
+
+.wallpapers-content h1{
+    font-family:  'Times New Roman', sans-serif;
+}
+
+.wallpapers-ad {
+    padding: 10px;
+}
+
+
 /*MUSIC INDEX SHIT*/
 .music-index-bg {
     background-image: url("images/bg/listenbkgd.gif");
