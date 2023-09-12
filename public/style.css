@@ -342,7 +342,7 @@ cursor: inherit;
 
 /*for marking individual music links as dormant or not yet up*/
 img.dormant {
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     margin: auto;
     display: block;
     padding: 10px 30px;
